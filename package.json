@@ -1,5 +1,5 @@
 {
-  "name": "NodeCommandLineInterface",
+  "name": "nodecli",
   "version": "1.0.0",
   "description": "Node CLI Software Engineer Team Generator",
   "main": "app.js",
