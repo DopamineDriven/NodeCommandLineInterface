@@ -1,6 +1,6 @@
 # NodeCommandLineInterface
 
-# Unit 10 OOP Homework: Template Engine - Employee Summary
+# Unit 10 OOP Homework: Template Engine
 
 # Technical Overview
 
@@ -16,6 +16,13 @@ The team.html file is generated in the output folder. A style.css file was also 
 
 As a director/manager I want to be able to generate a uniform roster showcasing my team for clients. This roster should be responsive. A command line interface allows a manager to "plug n chug" by simply inputing values corresponding to their team. This program has no cap on team size. A card is generated for each team member. 
 
+# Validation
+
+This program uses regular expressions for the purpose of validation. This controls which user input is accepted and which isn't for each variable. For example, all IDs must be a string of non-negative integers whereas all email addresses must be username@client.domain
+
+# Portfolio
+
+This project was added to my portfolio: https://dopaminedriven.github.io/portfolio/portfolio.html
 
 ## npm packages required
 - jest
