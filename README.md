@@ -23,7 +23,7 @@ This program uses regular expressions for the purpose of validation. This contro
 This project was added to my portfolio: https://dopaminedriven.github.io/portfolio/portfolio.html
 
 ## npm packages required
-- jest
-- inquirer
-- path
-- fs 
+- jest https://www.npmjs.com/package/jest
+- inquirer https://www.npmjs.com/package/inquirer
+- path https://www.npmjs.com/package/path
+- fs https://www.npmjs.com/package/file-system
