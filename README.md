@@ -1,5 +1,7 @@
 # NodeCommandLineInterface
 
+https://www.youtube.com/watch?v=1aqZo6awj38
+
 # Technical Overview
 
 This programe utilizes the node CLI (node command line interface). There are four unique employee classes with one super (parent) class; employee. Each employee class is a constructor defined in the lib folder (manager, engineer, intern, and janitor). These constructors classes also contain functions with template literals (defining HTML in javascript calling variables and functions via interpolation) which simplifies the process of coding. The process is simplified by reducing the total number of files required and by reducing the amount of code ultimately required in the htmlRenderer.js file by making the HTML a function. 
