@@ -35,16 +35,16 @@ function appMenu() {
 					message: "What is your manager's id?",
 					validate: answer => {
 						const pass = answer.match(
-							//Regex:
+							// Regex:
 							// /->open; start of reg expression
 							// ^->beginning; matches beginning of string
 							// []->character set
 							// [1-9]->match a char in range 1-9
 							// d->digit; matches any digit 1-9
-							// *->star; match 0 or more of preceding token
+							// *->asterisk; match 0 or more of preceding token
 							// $->end; matches end of string
 							// /->close; finish of reg expression
-							//Answer must be input as non-negative intergers 1-9
+							// Answer must be input as non-negative integers 1-9
 							/^[1-9]\d*$/
 						);
 						if (pass) {
@@ -59,7 +59,7 @@ function appMenu() {
 					message: "What is your manager's email?",
 					validate: answer => {
 						const pass = answer.match(
-							//Regex:
+							// Regex:
 							// /->open; start of email address
 							// \S->not whitespace; user email name
 							// +->plus; combine user email with @
