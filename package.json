@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "init": "node ./app"
   },
   "repository": {
     "type": "git",
